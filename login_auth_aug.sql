@@ -15,4 +15,3 @@
  INSERT INTO cust_details (full_name, address, ph_no, userid, password)
 VALUES ('Rahul Sharma', '221B Baker Street, Mumbai', 9876543210, 'rahul.sharma', 'Pass@123');
 select * from cust_details where userid='test12';
-truncate table cust_Details;
